@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li > a {
+    color: #f9faf8;
+}
+
+/* Formatação do cabeçalho */
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    padding: 24px 256px 48px;
+    gap: 48px;
+}
+
+.header-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+/* Formatação do banner abaixo do cabeçalho */
+
+.hero-container {
+    display: flex;
+    gap: 96px;
+    padding: 48px 0px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 824px;
+}
+
+.hero-title {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.hero-undertext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-image {
+    flex: 1;
+    background-color: gray;
+    text-align: center;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    flex: 0;
+    align-self: flex-start;
+    font-size: 20px;
+    padding: 8px 32px;
+    border-radius: 16px;
+}
+
+/* Formatação do rodapé */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 81px;
+    width: auto;
+    background-color: #1f2937;
+    color: white;
+}
+
+/* cards de informação usados nas páginas de formação acadêmica e portfólio */
+
+.info-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 64px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    align-items: center;
+    margin: 64px 0px 128px;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
+    border: 4px solid blue;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+/* texto da página sobre mim */
+
+.about-container {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 100;
+    margin: 0;
+    padding: 32px;
+}
+
+/* formulário de contato */
+
+.contact-form {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form {
+    gap: 32px;  
+    padding: 0px 256px;
+}
+
+textarea {
+    resize: none;
+}
+
+input {
+    width: 512px;
+}
